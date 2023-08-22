@@ -1,0 +1,211 @@
+.specialIcon {
+    cursor: pointer;
+    height: 2rem;
+    transition: height 0.15s ease-in;
+  }
+
+  .aboutContainers{
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+   
+  }
+
+  .detailsContainer{
+    padding: 1.5rem;
+    flex: 1;
+    background-color: none;
+    border-radius: 2rem;
+    border: rgb(161, 160, 160) 0.1rem solid;
+    border-color: rgb(161, 160, 160);
+    text-align: center;
+    transition: background-color 0.15s ease;
+    backdrop-filter: blur(6px);
+    max-width: 500px;
+    
+    
+  }
+  
+  .icon {
+    cursor: pointer;
+    height: 2rem;
+  }
+  
+  .specialIcon:hover {
+    height: 3.25rem;
+  }
+
+  #contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+  }
+  
+  .contactInfoUpperContainer{
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(161, 160, 160) 0.1rem solid;
+    border-color:  rgb(161, 160, 160) ;
+    background:  rgb(161, 160, 160) 0.1rem solid;
+    margin: 2rem auto;
+    padding: 0.5rem;
+  }
+  
+  .contactInfoCnatainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+    flex-direction: row;
+    
+  }
+  
+  .contactInfoContainer p{
+    font-size: larger;
+  }
+
+  .title {
+    font-size: 3rem;
+    text-align: center;
+    transition: color 0.4s ease-in-out;
+    cursor: pointer;
+    margin: 1rem;
+  }
+
+  .sectionTextP1 {
+    text-align: center;
+  }
+
+  a,
+.btn {
+  transition: all 300ms ease;
+  cursor: pointer;
+}
+
+
+#contact a {
+  position: relative;
+  color: black;
+  text-decoration: none;
+  text-decoration-color: black;
+}
+
+#contact a:before{
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  height: 3px;
+  width: 0;
+  background: gray;
+  border-radius: 50px;
+  text-underline-offset: 1rem;
+  transition: width 0.3s ease;
+}
+a:hover{
+  color: gray;
+}
+
+#contact a:hover::before {
+  width: 100%;
+}
+
+#experience{
+  position: relative;
+}
+
+.experienceSubbtitle{
+  color: white;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.experienceDetailsContainer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+@media screen and (min-width: 600px) and (max-width:950px){
+
+
+
+  .icon{
+    height: 1.5rem;
+    padding-left: 5px;
+  }
+  
+  #contact{
+    margin-top: 2rem;
+  }
+  
+   .aboutContainers,.contactInfoUpperContainer{
+    flex-wrap: wrap;
+   }
+  
+   
+  
+   .contactInfoCnatainer, .contactInfoCnatainer p{
+    font-size: 1rem;
+   }
+  
+   .experienceSubtitle{
+    font-size: 1.25rem;
+   }
+  
+   
+  
+   title{
+    font-size: 2rem;
+   }
+  
+   .textContainer{
+    text-align: justify;
+   }
+  
+  }
+
+@media screen and (max-width: 600px) {
+
+
+
+.icon{
+  height: 1.5rem;
+  padding-left: 5px;
+}
+
+#contact{
+  margin-top: 2rem;
+}
+
+ .aboutContainers,.contactInfoUpperContainer{
+  flex-wrap: wrap;
+ }
+
+ 
+
+ .contactInfoCnatainer, .contactInfoCnatainer p{
+  font-size: 1rem;
+ }
+
+ .experienceSubtitle{
+  font-size: 1.25rem;
+ }
+
+ 
+
+ title{
+  font-size: 2rem;
+ }
+
+ .textContainer{
+  text-align: justify;
+ }
+
+}

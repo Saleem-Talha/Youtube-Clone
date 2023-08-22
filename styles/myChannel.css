@@ -1,0 +1,101 @@
+body {
+  padding-bottom: 100px;
+}
+
+.tag {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.tagDiv {
+  display: flex;
+  flex: 1;
+  margin-bottom: 40px;
+}
+
+.containers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 10px;
+  
+}
+
+@media (max-width: 750px) {
+  .containers {
+    grid-template-columns: 1fr;
+  }
+}
+
+.note {
+    display: flex;
+    flex-direction: column;
+    max-width: 380px;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: rgb(245, 242, 242);
+    border-radius: 5px;
+    padding: 10px;
+    transition: background-color 0.15s;
+}
+
+.note:hover {
+  background-color: rgb(216, 215, 215);
+}
+
+.noteHeading {
+  font-size: 35px;
+}
+
+.notePara {
+  font-family: robot, arial;
+  width: 100%;
+  padding: 10px;
+  margin-top: 0;
+  margin-top: 8px;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.ContactDiv {
+    display: flex;
+    flex-direction: column;
+    max-width: 380px;
+    align-items: center;
+    flex: 1;
+    right: 0px;
+    background-color: rgb(245, 242, 242);
+    border-radius: 5px;
+    padding: 10px;
+    transition: background-color 0.15s;
+}
+
+.ContactDiv:hover {
+  background-color: rgb(216, 215, 215);
+}
+
+.Contact {
+  font-size: 35px;
+}
+
+.contactRow{
+    display: flex;
+    flex-direction: row;
+    flex: 1
+}
+
+.contactInfo{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+
+.contactImg{
+    height: 24px;
+    margin: 4px;
+}
+
+.contactLink{
+    margin: 7px;
+}

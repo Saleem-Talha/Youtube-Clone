@@ -1,0 +1,97 @@
+      
+.videoGrid{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     column-gap: 16px;
+     row-gap: 40px;
+}
+
+@media (max-width: 500px) {
+    .videoGrid{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 1000px) {
+    .videoGrid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+    .videoGrid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (mix-width: 1000px) {
+    .videoGrid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.thumbnails{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.thumbnailRow{
+    position: relative;
+}
+
+.videoTime{
+    color: white;
+    background-color: black;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 2px;
+    font-family: robot,arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px;   
+}
+
+.videoInfoGrid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    transition: background-color 0.15s;
+    height: 100px;
+    width: 300px;
+}
+
+.videoInfoGrid:hover{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+
+}
+
+.videoPreview:hover{
+    border-radius: 5px;
+    background-color: rgb(231, 225, 225);
+}
+
+.profilePic{
+    margin-top: 8px;
+    margin-left: 5px;
+    width: 36px;
+    border-radius: 50px;
+}
+
+.videoTitle{
+    margin-top: 0;
+    font-weight: 500;
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 12px;
+    
+}
+
+.videoAuthor,.videoStats{
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 4px;
+    
+}
+
