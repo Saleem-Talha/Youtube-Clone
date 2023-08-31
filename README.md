@@ -4,7 +4,9 @@
 
 Welcome to the GitHub repository for the YouTube Landing Page Clone project. This project presents a meticulously crafted clone of the YouTube landing page, developed using HTML and CSS. Our primary objective was to replicate the familiar and user-friendly interface of the world's leading video-sharing platform while ensuring optimal responsiveness across various devices and screen sizes.
 
-Live Demo Here: [Youtube Clone](https://youtubeclonebytalha.netlify.app/)
+## Live Demo
+
+Explore the live demo here: [Youtube Clone](https://youtubeclonebytalha.netlify.app/)
 
 Key Features:
 
